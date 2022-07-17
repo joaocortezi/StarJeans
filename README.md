@@ -12,7 +12,6 @@
         2. Quantos tipos de calças e suas cores para o produto inicial? 
         3. Quais as matérias-prima necessárias para confeccionar as calças?
 
-
     As principais concorrentes da empresa Start Jeans são as americadas H&M e Macys.
 
 ## Etapas do Pensamento analítico:
@@ -62,7 +61,19 @@
             3. Entregar o valor para empresa rapidamente. 
         2. Fazer escolhas simples (keep it simple)
 
+## Etapas de um projeto de dados:
+    1. Questão do negócio;
+    2. Entendimento do negócio;
+    3. Coleta de dados;
+    4. Limpeza de dados;
+    5. Exploração de dados;
+    6. Modelagem de dados;
+    7. Aplicação dos algorítmos de Machine Learning;
+    8. Avaliação de performance dos algorítmos;
+    9. Publicação do modelo em Produção.  
 
+## Método CRISP-DS de desenvolvimento:
+![CRISP](https://user-images.githubusercontent.com/84943660/176204325-9ce23c8c-ef2d-4c79-b4ee-e79c634ec0d3.png)
 
 
 
