@@ -78,11 +78,13 @@
 ## Método SAPE (saída, processo e entrada):
     Problema do negócio:
         - Qual é o melhor preço de venda para calças.
+        - Quantos tipos de calças e suas cores para o produto inicial? 
+        - Quais as matérias-prima necessárias para confeccionar as calças?
     Saída (produto final):
         1. A resposta para a pergunta;
             - Mediana dos preços dos concorrentes.
         2. Formato da entrega;
-            - Tabela ou gráfico
+            - Tabela ou gráfico.
         3. Local da entrega.
             - App Streamlit
     Processo (passa a passo):
@@ -105,13 +107,13 @@
             - Site Macys: https://www.macys.com/shop/mens-clothing/mens-jeans
         2. Ferramentas 
             - Python 3.9.12;
-            - Bibliotecas de Webscrapping (BS4, Selenium);
+            - Bibliotecas de Webscrapping (BS4, Selenium); https://www.crummy.com/software/BeautifulSoup/bs4/doc/
             - VSCODE;
             - Airflow, Crontjob;
             - Streamlit.
 
 
-
+- https://developers.whatismybrowser.com (user agent)
 
 
 
