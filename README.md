@@ -75,7 +75,40 @@
 ## Método CRISP-DS de desenvolvimento:
 ![CRISP](https://user-images.githubusercontent.com/84943660/176204325-9ce23c8c-ef2d-4c79-b4ee-e79c634ec0d3.png)
 
-
+## Método SAPE (saída, processo e entrada):
+    Problema do negócio:
+        - Qual é o melhor preço de venda para calças.
+    Saída (produto final):
+        1. A resposta para a pergunta;
+            - Mediana dos preços dos concorrentes.
+        2. Formato da entrega;
+            - Tabela ou gráfico
+        3. Local da entrega.
+            - App Streamlit
+    Processo (passa a passo):
+        1. Passo a passo para construir o cálculo de mediana ou média;
+            - Realizar o cálculo da mediana sobre o produto, tip e cor. 
+        2. Definir o formato da entrefa (vizualização, tablea, frase);
+            - Gráfico de barras com a mediana dos preços dos produtos por tipo e cor nos últimos 30 dias;
+            - Tabela com as seguintes colunas: id | product_name | product_type | product_color | product_price;
+            - Definição do schema: Colunas e seu tipo;
+            - Definição da infraestrutura de armazenamento (SQLITE3);
+            - Design do ETL (Scrips de extração, transformação e carga);
+            - Planejamento de agendamento dos scripts (dependências entre os scripts);
+            - Fazer as visualizações;
+            - Entregar o produto final 
+        3. Decidir o local da entrega (tableau, telegram, email, streamlit, intranet).
+            - App com streamlit.
+    Entrada (fonte de dados):
+        1. Fonte de dados; 
+            - Site H&M: https://www2.hm.com/en_us/men/products/jeans.html
+            - Site Macys: https://www.macys.com/shop/mens-clothing/mens-jeans
+        2. Ferramentas 
+            - Python 3.9.12;
+            - Bibliotecas de Webscrapping (BS4, Selenium);
+            - VSCODE;
+            - Airflow, Crontjob;
+            - Streamlit.
 
 
 
